@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - your favourite music is here</title>
+    <link rel="stylesheet" href="Clone.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="https://developer.spotify.com/images/guidelines/design/icon3@2x.png"
+                    alt="Spotify_logo"> Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Your Playlist - Hope You Enjoy</h1>
+            <div class="songItemConatiner">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me love you</span>
+                    <span class="songListplay"><span class="timeStamp">03:25 <i id="0"
+                                class="songItemPlay fa-sharp fa-regular  fa-circle-play"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img alt="2">
+                    <span class="songName">Dildara</span>
+                    <span class="songListplay"><span class="timeStamp">04:30 <i id="1"
+                                class="songItemPlay fa-sharp fa-regular  fa-circle-play"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img alt="3">
+                    <span class="songName">Until I found you</span>
+                    <span class="songListplay"><span class="timeStamp">02:55 <i id="2"
+                                class="songItemPlay fa-sharp fa-regular  fa-circle-play"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img alt="4">
+                    <span class="songName">Tera yaar hoon main</span>
+                    <span class="songListplay"><span class="timeStamp">04:27 <i id="3"
+                                class="songItemPlay fa-sharp fa-regular  fa-circle-play"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img alt="5">
+                    <span class="songName">Saturday Saturday</span>
+                    <span class="songListplay"><span class="timeStamp">03:03 <i id="4"
+                                class="songItemPlay fa-sharp fa-regular  fa-circle-play"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img alt="6">
+                    <span class="songName">Perfect</span>
+                    <span class="songListplay"><span class="timeStamp">04:39 <i id="5"
+                                class="songItemPlay fa-sharp fa-regular  fa-circle-play"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img alt="7">
+                    <span class="songName">Everyday Normal Guy 2</span>
+                    <span class="songListplay"><span class="timeStamp">03:41 <i id="6"
+                                class="songItemPlay fa-sharp fa-regular  fa-circle-play"></i></span></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="far fa-2x fa-solid fa-backward" id="previous"></i>
+            <i class="far fa-2x fa-sharp fa-regular fa-circle-play" id="masterPlay"></i>
+            <i class="far fa-2x fa-solid fa-forward" id="next"></i>
+        </div>
+
+        <div class="songInfo">
+            <img src="https://img1.picmix.com/output/stamp/normal/5/4/5/3/463545_fd2c9.gif" alt="Playing" width="42px"
+                id="gif"><span id="masterSongName">Let me Love you</span>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/0f319d07ca.js" crossorigin="anonymous"></script>
+    <script src="Clone.js"></script>
+</body>
+
+</html>
